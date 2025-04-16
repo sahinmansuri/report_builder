@@ -1,0 +1,1 @@
+<textarea class="form-control" id="{{ $field->field_name }}" name="{{ $name??$field->field_name }}">{{ isset($configurations['filter']) && isset($configurations['filter'][$field->field_name]) ? $configurations['filter'][$field->field_name] : '' }}</textarea>
